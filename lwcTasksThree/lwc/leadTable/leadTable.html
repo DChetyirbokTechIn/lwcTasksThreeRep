@@ -1,0 +1,7 @@
+<template>
+    <lightning-card variant="narrow" title="Leads" icon-name="standard:lead">
+        <lightning-datatable key-field="Id" data={leads.data} columns={columns} oncellchange={cellChangeHandler}
+            draft-values={draftValues} hide-checkbox-column show-row-number-column suppress-bottom-bar>
+        </lightning-datatable>
+    </lightning-card>
+</template>

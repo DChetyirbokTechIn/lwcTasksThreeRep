@@ -1,0 +1,8 @@
+<template>
+    <lightning-card variant="narrow" title="Contacts" icon-name="standard:contact">
+        <lightning-datatable key-field="Id" data={contacts.data} columns={columns} oncellchange={cellChangeHandler}
+            draft-values={draftValues} hide-checkbox-column show-row-number-column suppress-bottom-bar>
+        </lightning-datatable>
+    </lightning-card>
+
+</template>

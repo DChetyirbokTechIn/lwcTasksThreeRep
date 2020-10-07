@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-grid">
+        <div class="slds-col slds-size_1-of-6"></div>
+
+        <div class="slds-col slds-size_4-of-6">
+            <lightning-tabset variant="scoped">
+                <lightning-tab label="Leads">
+                    <c-lead-table></c-lead-table>
+                </lightning-tab>
+
+                <lightning-tab label="Contacts">
+                    <c-contact-table></c-contact-table>
+                </lightning-tab>
+            </lightning-tabset>
+        </div>
+
+        <div class="slds-col slds-size_1-of-6"></div>
+    </div>
+</template>
